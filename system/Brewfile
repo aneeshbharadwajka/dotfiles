@@ -1,0 +1,61 @@
+# TAPS
+tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions'
+
+# BINARIES
+brew 'coreutils'
+brew 'gh'
+brew 'bat'
+brew 'grep'
+brew 'mas'
+brew 'ffmpeg'
+brew 'stats'
+brew 'wget'
+brew 'tree'
+
+# Development
+brew 'htop'
+brew 'neofetch'
+brew 'nvm'
+brew 'yarn'
+brew 'golang'
+brew 'awcli'
+brew 'aws-vault'
+brew  'azure-cli'
+brew 'jq'
+brew 'neovim'
+brew 'pillow'
+brew 'jless'
+brew 'xz'
+brew 'podman'
+brew "docker-compose"
+brew 'colima'
+brew 'redis', restart_service: :changed
+brew 'w3m'
+brew 'terraform'
+brew 'opentofu'
+brew 'postgresql', restart_service: :changed
+
+# Cask app installations
+cask 'font-hack-nerd-font'
+cask 'font-fira-code'
+cask 'font-jetbrains-mono'
+cask 'font-source-code-pro'
+cask 'font-jetbrains-mono'
+cask 'iterm2'
+cask 'postman'
+cask 'dbeaver-community'
+cask 'rectangle'
+cask 'visual-studio-code'
+cask 'utm'
+
+
+
+
+
+
+# # Fun stuff
+# brew 'cowsay'
+# brew 'fortune'
+# brew 'figlet'
+# brew 'lolcat'
