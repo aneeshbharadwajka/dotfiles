@@ -345,7 +345,7 @@
   },
   "Unicode Version" : 9,
   "ASCII Ligatures" : true,
-  "Name" : "Default",
+  "Name" : "development",
   "Cursor Text Color" : {
     "Red Component" : 0.99999600648880005,
     "Color Space" : "sRGB",
