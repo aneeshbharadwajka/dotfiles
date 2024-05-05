@@ -9,7 +9,6 @@ brew 'bat'
 brew 'grep'
 brew 'mas'
 # brew 'ffmpeg'
-brew 'stats'
 brew 'wget'
 brew 'tree'
 brew 'gnupg'
@@ -35,7 +34,7 @@ brew 'redis', restart_service: :changed
 brew 'w3m'
 brew 'terraform'
 brew 'opentofu'
-brew 'postgresql', restart_service: :changed
+brew 'postgresql@14', restart_service: :changed
 
 # Cask app installations
 cask 'font-hack-nerd-font'
